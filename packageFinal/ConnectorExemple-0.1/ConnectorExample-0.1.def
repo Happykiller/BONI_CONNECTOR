@@ -2,7 +2,8 @@
 <definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
   <id>ConnectorExample</id>
   <version>0.1</version>
-  <category icon="CMS.png" id="cms"/>
+  <icon>icon.png</icon>
+  <category icon="icon.png" id="custom"/>
   <input mandatory="true" name="who" type="java.lang.String"/>
   <output name="out" type="java.lang.String"/>
   <page id="DefineInput">

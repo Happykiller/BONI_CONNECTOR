@@ -1,6 +1,6 @@
 package tests;
 
-import com.bonitasoft.ConnectorLib;
+import com.bonitasoft.custom.ConnectorLib;
 
 /**
  * Created by Fabrice.R on 19/01/2015.

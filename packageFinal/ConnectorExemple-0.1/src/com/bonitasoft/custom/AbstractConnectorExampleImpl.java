@@ -1,4 +1,4 @@
-package com.bonitasoft;
+package com.bonitasoft.custom;
 
 import org.bonitasoft.engine.connector.AbstractConnector;
 import org.bonitasoft.engine.connector.ConnectorValidationException;

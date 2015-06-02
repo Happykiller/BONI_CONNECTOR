@@ -1,4 +1,4 @@
-package com.bonitasoft;
+package com.bonitasoft.custom;
 
 import java.util.logging.Logger;
 
@@ -15,6 +15,19 @@ public class ConnectorLib {
             System.out.println(message);
         }catch (Exception e) {
             uilLogger.severe("trace - Error : " + e.getMessage());
+        }
+    }
+
+    public static String getDateTimeStr(){
+        try {
+            Calendar calendar = Calendar.getInstance();
+            java.util.Date currentDate = calendar.getTime();
+            java.sql.Date dateReturn = new java.sql.Date(currentDate.getTime());
+            SimpleDateFormat formater = new SimpleDateFormat("yyyyMMddHHmmss");
+            return formater.format(dateReturn);
+        }catch (Exception ex) {
+            trace("getDateTimeStr - Error : " + ex);
+            return null;
         }
     }
 

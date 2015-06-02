@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.bonitasoft;
+package com.bonitasoft.custom;
 
 import com.bonitasoft.ConnectorLib;
 import java.util.logging.Logger;
